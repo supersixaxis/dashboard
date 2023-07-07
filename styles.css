@@ -192,7 +192,16 @@
 
 .section_container { 
     background-color: #FFFFFF;
-    width: 60%;
+    width: 70%;
+    position: relative;
+}
+.barre {
+        position: absolute;
+        top: 35px;
+        right: 0;
+        height: 90%;
+        width: 1px;
+        background-color: #D6D6D6;
 }
 
 .section_title {
@@ -206,7 +215,7 @@
 }
 
 .section_title_container p {
-    margin: 0px 20px 0px 0px; 
+    margin: 0px 80px 0px 0px; 
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.20);
     background: #FFF;
@@ -219,14 +228,12 @@
 }
 
 .customer_container {
-    margin-left: 84px;
     background-color: #FFF;
-    width: 35%;
+    width: 30%;
 }
 
-
 .customer_container2 {
-    margin-left: 31px;
+   margin-left: 31px;
 }
 
 .customer_container2  p {
@@ -234,7 +241,7 @@
 }
 
 .customer_container2 h2 {
-    margin-bottom: 25px;
+    margin: 25px 0px 25px 0px
 }
 .overview_container {
     margin-top: 40px;
@@ -244,5 +251,6 @@
 .overview_header {
     display: flex;
     justify-content: space-between;
+    margin-left: 32px;
 }
 
