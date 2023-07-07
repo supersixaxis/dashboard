@@ -94,12 +94,17 @@
     margin-right: 12px;
 }
 .nav_container i {
-    margin-left: 42px;
-    
+    font-size: 24px;
+}
+.arrow1{
+    margin-left: 60px;;
+}
+.arrow2{
+    margin-left: 20px;
 }
 .nav_title_container {
     background: rgba(80, 65, 120, 0.20);
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 10px;
     width: 60%;
     margin: 0px 0px 20px 0px;
@@ -120,12 +125,80 @@
 
 /* -------------------Dashboard---------------------- */
 
-.container_dashboard{
+.header_dashboard_container {
+    margin-bottom: 22px;
+    width: 100%;
+}
+.dashboard_title {
+    margin-top: 100px;
+}
+
+.container_main{
     display: flex;
 }
-
-.section_container {
-    margin-top: 70px;
+.dashboard_container{
+    width: 100%;
+    background: #F6F8FA;
 }
 
+.dashboard_container2{
+    margin-left: 40px;
+    margin-right: 33px;
+}
+
+.card_dashboard_container {
+    display: flex;
+    gap: 33px;
+}
+
+
+
+
+.card_dashboard {
+    display: flex;
+    align-items: center;
+    margin-top: 31px;
+    background-color: white;
+    border-radius: 10px;
+    width: 25%;
+    padding: 25px 0px;
+
+}
+
+.card_dashboard img {
+    margin-right: 18px;
+    padding: 12px;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 38px;
+    color:white;
+    margin-left: 21px;
+
+}
+.truck1 {
+    background: linear-gradient(135deg, #504178 0%, #FF7B8A 100%);
+}
+.truck2 {
+    background: linear-gradient(135deg, #42BA17 0%, #9FF182 100%);
+}
+.truck3 {
+    background: linear-gradient(135deg, #5A6ACF 0%, #FF7B8A 100%);
+}
+.truck4 {
+    background: linear-gradient(135deg, #D32136 0%, #FF7B8A 100%);
+}
+
+
+
+.section_container { 
+    background-color: #FFFFFF;
+}
+
+.section_title {
+    margin-left: 25px;
+}
+
+.stat_and_custom_container{
+    display: flex;
+}
 
