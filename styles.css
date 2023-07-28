@@ -198,8 +198,9 @@
     background-color: #FFFFFF;
     width: 70%;
     position: relative;
+    height: 65vh;
 }
-.barre {
+.separation {
         position: absolute;
         top: 35px;
         right: 0;
@@ -230,6 +231,103 @@
 .stat_and_custom_container{
     display: flex;
 }
+
+
+
+
+.barre_container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    gap: 3vw;
+    margin-top: 20px;
+    height: 52vh;
+}
+
+.barreSchema {
+    position: relative;
+    width: 2%;
+    height: 100%;
+    background-color: #EDE7FD; 
+}
+
+.fillBarreSchema {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #504178;;
+}
+
+.fillBarre1 {
+    height: 400px;
+}
+.fillBarre2 {
+    height: 260px;
+}
+.fillBarre3 {
+    height: 330px;
+}
+.fillBarre4 {
+    height: 150px;
+}
+.fillBarre5 {
+    height: 260px;
+}
+.fillBarre6 {
+    height: 370px;
+}
+.fillBarre7 {
+    height: 200px;
+}
+.fillBarre8 {
+    height: 450px;
+}
+.fillBarre9 {
+    height: 370px;
+}
+.fillBarre10 {
+    height: 300px;
+}
+.fillBarre11 {
+    height: 400px;
+}
+.fillBarre12 {
+    height: 370px;
+}
+
+.labels_container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    position: absolute;
+    left: 50px;
+    top:70px;
+    gap: 31px;
+    flex-direction: column-reverse
+}
+
+.label {
+    text-align: center;
+    width: 5%;
+}
+
+.months_container {
+    display: flex;
+    justify-content: center;
+    gap: 1.3vw;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    right: 10px;
+}
+
+.month_label {
+    text-align: center;
+    width: 5%;
+}
+
 
 
 /* -------------------Customer---------------------- */
